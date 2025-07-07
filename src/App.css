@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+ font-family: "Roboto", sans-serif;
+}
+
+.navSection{
+  height:80px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(18, 61, 152);
+  align-items: center;
+  color:white;
+  padding: 0 20px;
+  font-size: large;
+}
+.userAuth ul{
+  display: flex;
+ 
+}
+.userAuth ul li{
+  list-style: none;
+ cursor: pointer;
+}
+
+.sideBarSection {
+    width: 100%;
+    max-width: 15%;
+    height: 95vh;
+    padding-top: 10px;
+    /* background-color: lightgray; */
+    background-color: #2E294E;
+    color: white;
+}
+
+.sideBarSection ul li{
+     list-style: none;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.collectionSection{
+  display: flex;
+}
+
+.loginSection{
+  border: 1px solid red;
+  width:100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ 
+}
+
+.registerSection{
+  border: 1px solid red;
+  width:100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ 
+}
+
+
+.authForm{
+  width:100%;
+  max-width:40%;
+  display: flex;
+  flex-direction: column;
+ 
+  justify-content: center;;
+ 
+border : 1px solid grey;
+padding:20px;
+border-radius: 10px;
+}
+
+.authForm h3{
+  text-align: center;
+}
+
+.authForm input{
+  height:1.5rem;
+}
+
+/* firm Section adding */
+.firmSection{
+    border: 1px solid red;
+  width:100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ 
+}
+
+.tableForm{
+    width:100%;
+  max-width:40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;;
+border : 1px solid grey;
+padding:20px;
+border-radius: 10px;
+box-shadow: -14px -8px 10px -13px rgba(0,0,0,0.53);
+-webkit-box-shadow: -14px -8px 10px -13px rgba(0,0,0,0.53);
+-moz-box-shadow: -14px -8px 10px -13px rgba(0,0,0,0.53);
+}
+
+.tableForm input{
+  height:1.5rem;
+}
+
+.tableForm h3{
+  text-align: center;
+}
+
+
+.checkboxContainer{
+  display: flex;
+  align-items: center;
+  margin-left:120px;
+}
+
+.checkboxContainer label{
+margin-right:10px;
+}
+
+.checkboxContainer input{
+  margin-right:10px ;
+}
+
+/* Product Section */
+.product-table{
+  border: 2px  solid red;
+  width: 80vw;
+  
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.product-table th, .product-table td {
+  border: 1px solid #837575;
+  padding: 8px;
+}
+
+.product-table th {
+  text-align: left;
+  background-color: #f2f2f2;
+}
+
+/* Page Not Found - Error Section*/
+.errorSection {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.errorSection h1 {
+    font-size: 4rem;
+}
+
+h3 {
+    color: #D7263D;
+}
+
+
+/* btn Submit */
+.btnSubmit{
+  text-align: center;
+}
+
+.btnSubmit button {
+    background-color: rgb(43, 43, 180);
+    width: 6rem;
+    color: white;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
